@@ -106,7 +106,3 @@ int main() {
     
     return 0;
 }
-
-void __ISR(_TIMER_1_VECTOR, IPL3SRS) _T1Interrupt(){
-    IFS0bits.T1IF = 0;
-}
